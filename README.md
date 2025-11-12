@@ -31,22 +31,26 @@ Tecnologías utilizadas:
 
 Instalación y uso:
 
-1. Preparar Raspberry Pi
+1. Preparar Raspberry Pi:
+   
 sudo apt update
 sudo apt install python3-venv python3-full -y
 
-2. Crear entorno virtual
+3. Crear entorno virtual:
+4. 
 python3 -m venv ~/biosimpi
 source ~/biosimpi/bin/activate
 
-3. Instalar dependencias
+5. Instalar dependencias:
+   
 pip install streamlit numpy pandas python-telegram-bot
 
-4. Descargar el proyecto
+6. Descargar el proyecto
 
 Copia tu script bio_sim_pi.py a la Raspberry, por ejemplo en /home/pi/.
 
-5. Ejecutar el simulador
+7. Ejecutar el simulador:
+   
 cd ~
 source ~/biosimpi/bin/activate
 streamlit run ~/bio_sim_pi.py
