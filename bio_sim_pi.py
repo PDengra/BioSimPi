@@ -1,4 +1,4 @@
-# bio_sim_pi_pro.py
+# bio_sim_pi.py
 
 import random
 import time
