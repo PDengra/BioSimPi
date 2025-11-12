@@ -44,12 +44,12 @@ pip install streamlit numpy pandas python-telegram-bot
 
 4. Descargar el proyecto
 
-Copia tu script bio_sim_pi_pro.py a la Raspberry, por ejemplo en /home/pi/.
+Copia tu script bio_sim_pi.py a la Raspberry, por ejemplo en /home/pi/.
 
 5. Ejecutar el simulador
 cd ~
 source ~/biosimpi/bin/activate
-streamlit run ~/bio_sim_pi_pro.py
+streamlit run ~/bio_sim_pi.py
 
 Aparecerá la interfaz en:
 
