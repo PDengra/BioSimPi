@@ -36,20 +36,20 @@ Instalación y uso:
 sudo apt update
 sudo apt install python3-venv python3-full -y
 
-3. Crear entorno virtual:
-4. 
+2. Crear entorno virtual:
+ 
 python3 -m venv ~/biosimpi
 source ~/biosimpi/bin/activate
 
-5. Instalar dependencias:
+3. Instalar dependencias:
    
 pip install streamlit numpy pandas python-telegram-bot
 
-6. Descargar el proyecto
+4. Descargar el proyecto
 
 Copia tu script bio_sim_pi.py a la Raspberry, por ejemplo en /home/pi/.
 
-7. Ejecutar el simulador:
+5. Ejecutar el simulador:
    
 cd ~
 source ~/biosimpi/bin/activate
